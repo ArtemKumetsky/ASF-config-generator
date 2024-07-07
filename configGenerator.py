@@ -6,7 +6,7 @@ import shutil
 global log_data, pass_data
 logpass_path = 'logpass.txt'
 mafiles_folder = 'mafiles'
-master_id = 76561199637456398
+master_id = PRINT YOUR MASTER STEAMID64 HERE
 template = {
     "Enabled": True,
     "SteamLogin": "",
@@ -20,7 +20,6 @@ template = {
 
 # create folder for result
 output_dir = "config"
-os.makedirs(output_dir, exist_ok=True)
 os.makedirs(output_dir, exist_ok=True)
 # create || clear report file
 with open("report.txt", "w") as report_file:
